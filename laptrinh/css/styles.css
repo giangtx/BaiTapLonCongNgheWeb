@@ -1,0 +1,195 @@
+
+#div-top{
+	padding-left: 90px;
+	padding-top: 6px;
+	padding-bottom: 20px;
+	padding-right: 90px;
+}
+#hello-span{
+	color: #555555;
+	font-family: monospace;
+	font-size: 15px;
+	margin-top: 28px;
+}
+#login-top{
+	color: #555555;
+	font-size: 20px;
+	margin-left: 15px;
+}
+.padding-sly{
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+.site-title{
+	font-size: 80px;
+	font-family: BeyondTheMountains;
+}
+@font-face {
+	font-family: BeyondTheMountains;
+	src: url("../fonts/beyond_the_mountains.ttf");
+
+}
+.site-title a{
+	color: black;
+	text-decoration: none;
+}
+.site-tiny{
+	font-size: 10px;
+	margin-top: -10px;
+	margin-left: 170px;
+	color: #9d9d9d;
+}
+#nav-sticky{
+	background-color: white;
+	box-shadow: 1px 3px 12px -5px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nav-item a{
+	color: #7d7d7d;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.new-arrivals{
+	background-image: url("../image/master-slide-02.jpg");
+	height:570px;
+}
+#new-arrivals-text{
+	text-align: center;
+	padding-top: 220px;
+}
+#new-arrivals-text span{
+	color: white;
+}
+#new-arrivals-text button{
+	font-size: 17px;
+	padding: 8px 30px;
+	border-radius: 23px;
+	border: none;
+	background-color: white;
+	color: #000000d6;
+}
+.m-l-r-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+.image-banner-top{
+	height: 479px;
+	width: 100%
+}
+.image-banner-bottom{
+	height: 339px;
+	width: 100%;
+}
+#product{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.m-t-b{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.pos-relative{
+	position: relative;
+}
+#sale-banner{
+	background-color: #f3f3f1;
+}
+.w-size{
+	width: 179px;
+	height: 46px;
+	background-color: white;
+	padding-top: 9px;
+}
+.block-btn{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	-webkit-transform: translateX(-50%);
+	text-align: center;
+}
+.block-btn a{
+	text-decoration: none;
+	color: black;
+}
+.align-item{
+	font-size: 17px;
+	align-items: center;
+}
+.boder{
+	border-bottom: 1px solid #edf0f5;
+}
+#info{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.icon-info{
+	height: 50px;
+	width: 50px;
+}
+.f-40{
+	font-size: 40px;
+}
+
+
+
+.info-bottom{
+	background-color: #f0f0f0;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 70px;
+	padding-bottom: 30px;	
+}
+.font-info-bottom{
+	font-size: 14px;
+	color: #555555;
+	line-height: 1.8;
+}
+.font-bold-bottom{
+	font-weight: bold;
+}
+.p-b-li{
+	padding-bottom: 9px;
+}
+.p-l-r-bt{
+	padding-left: 80px;
+	padding-right: 60px;
+	padding-top: 80px;
+}
+.icon-logo{
+	height: 20px;
+	width: 20px;
+}
+.p-r-logo{
+	padding-right: 15px;
+}
+.p-t-logo{
+	padding-top: 22px;
+}
+.p-t-logo a{
+	text-decoration: none;
+}
+ul,li{
+	list-style-type: none;
+	padding-left: 0px;
+}
+@media(min-width: 992px).col-lg-4{
+	max-width:33.333333%;
+}
+@media(min-width: 768px).col-md-12{
+	max-width:66.666667%;
+	height:100%
+}
+@media(min-width: 576px).col-sm-12{
+	max-width:83.333333%;
+	height:100%
+}
